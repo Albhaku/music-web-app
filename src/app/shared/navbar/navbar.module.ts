@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ButtonModule } from '@progress/kendo-angular-buttons';
-import { ToolBarModule } from '@progress/kendo-angular-toolbar';
 
 import { NavbarComponent } from './navbar.component';
 
@@ -11,8 +9,6 @@ import { NavbarComponent } from './navbar.component';
 	],
 	imports: [
 		CommonModule,
-		ToolBarModule,
-		ButtonModule,
 	],
 	exports: [
 		NavbarComponent,

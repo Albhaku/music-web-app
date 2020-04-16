@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { environment } from 'src/environments/environment';
 import { NavbarModule } from './shared/navbar/navbar.module';
 import { SpinnerCatComponent } from './shared/spinner-cat/spinner-cat.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
 	declarations: [
@@ -30,7 +31,8 @@ import { SpinnerCatComponent } from './shared/spinner-cat/spinner-cat.component'
 		StoreDevtoolsModule.instrument({
 			name: 'Music',
 			logOnly: environment.production
-		})
+		}),
+		BrowserAnimationsModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]
